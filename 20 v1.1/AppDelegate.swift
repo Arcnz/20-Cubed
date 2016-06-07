@@ -18,7 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
     
     @IBAction func enableClicked(sender: NSMenuItem) {
-        timer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: "alert", userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(1200.0, target: self, selector: "alert", userInfo: nil, repeats: true)
         NSRunLoop.currentRunLoop().addTimer(timer, forMode: NSRunLoopCommonModes)
     }
     
