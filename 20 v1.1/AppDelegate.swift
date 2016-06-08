@@ -3,7 +3,7 @@
 //  20 v1.1
 //
 //  Created by Austin on 26/05/2016.
-//  Copyright © 2016 Austin & Robin Co. Ltd. All rights reserved.
+//  Copyright © 2016 Austin & Robin All rights reserved.
 //
 
 import Cocoa
@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func alert() {
         let myPopup: NSAlert = NSAlert()
         myPopup.messageText = "Friendly Reminder"
-        myPopup.informativeText = "Just a friendly reminder to ask you to please look away from the screen for 20 seconds."
+        myPopup.informativeText = "Just a friendly reminder to ask you to please look away from the screen for 20 seconds at something aesthetically pleasing that is 20 feet away."
         myPopup.alertStyle = NSAlertStyle.WarningAlertStyle
         myPopup.addButtonWithTitle("OK")
         let res = myPopup.runModal()
