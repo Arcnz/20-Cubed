@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  20 v1.1
+//  20 v1.2
 //
 //  Created by Austin on 26/05/2016.
-//  Copyright © 2016 Austin & Robin All rights reserved.
+//  Copyright © 2016 Austin & Robin under the GNU General Public Licence
 //
 
 import Cocoa
